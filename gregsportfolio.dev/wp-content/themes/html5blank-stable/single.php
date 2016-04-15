@@ -23,6 +23,12 @@
 			</h1>
 			<!-- /post title -->
 
+			<!-- published date -->
+
+			<p>Article originally published on <?php the_field('date_published'); ?></p>
+			
+			<!-- /published date -->
+
 			<!-- post details -->
 			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
 			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
@@ -32,6 +38,8 @@
 			<?php the_content(); // Dynamic Content ?>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+
+			<p>Click <a href="<?php the_field('site_link'); ?>">here</a> to see the orignal published content</p>
 
 			<p><?php _e( 'Categorised in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
 
