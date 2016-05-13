@@ -41,8 +41,8 @@
 <nav>
 <ul id="navigation">
 <li class="home"><a href="http://portfolio.dev/"><span>Home</span></a></li>
-<li class="about"><a href="aboutme.html">About Me</a></li>
-<li class="articles"><a href="articles.html">Articles</a></li>
+<li class="about"><a href="http://portfolio.dev/about-me/">About Me</a></li>
+<li class="articles"><a href="http://portfolio.dev/category/myarticles/">Articles</a></li>
 <li class="designer"><a href="design2.html">Page Designs</a></li>
 <li class="graphics"><a href="graphics.html">Graphics</a></li>
 </ul>

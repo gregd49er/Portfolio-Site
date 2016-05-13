@@ -33,7 +33,7 @@
 			<h3>
 			<?php the_content(); // Dynamic Content ?>
 			</h3>
-
+	<div class="noteic">
 		<div class="row">
 
 			<div class="col-md-4">
@@ -49,11 +49,12 @@
 			<img src="http://portfolio.dev/wp-content/uploads/2016/05/frontpage-1.png" alt="editor in chief" class="img-responsive">
 			</div>
 		</div>
+	</div>
 
 		<br>
 		<br>
 		<br>
-
+	<div class="eic">
 		<div class="row">
 
 			<div class="col-md-2">
@@ -70,6 +71,7 @@
 			</div>
 			
 		</div>
+	</div>
 
 		<br>
 		<br>
@@ -95,7 +97,7 @@
 		<br>
 		<br>
 		<br>
-
+	<div class="eic">
 		<div class="row">
 
 			<div class="col-md-2">
@@ -112,11 +114,11 @@
 			</div>
 			
 		</div>
-
+	</div>
 		<br>
 		<br>
 		<br>
-
+	<div class="noteic">
 		<div class="row">
 			<div class="col-md-4">
 			<h1>Reporter</h1>
@@ -132,6 +134,7 @@
 			</div>
 			
 		</div>
+	</div>
 
 		</article>
 		<!-- /article -->
@@ -156,12 +159,6 @@
 	
 </div>
 
-<div class="col-md-4">
-	
-<?php get_sidebar(); ?>
-	
 
-
-</div>
 
 <?php get_footer(); ?>
