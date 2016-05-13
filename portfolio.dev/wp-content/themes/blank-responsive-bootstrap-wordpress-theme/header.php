@@ -32,57 +32,45 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-		
-		<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>">Brand</a>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="http://freelance.tstwebdesign.co.uk/blank-responsive-bootstrap-wordpress-theme/?page_id=2">Sample Page</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+
+<header><img src="http://theearlylede.dev/wp-content/uploads/2016/05/WebsiteLogo.png" alt="logo" class="img-responsive"></header>   
+
+<nav>
+<ul id="navigation">
+<li class="home"><a href="index2.html"><span>Home</span></a></li>
+<li class="about"><a href="aboutme.html">About Me</a></li>
+<li class="articles"><a href="articles.html">Articles</a></li>
+<li class="designer"><a href="design2.html">Page Designs</a></li>
+<li class="graphics"><a href="graphics.html">Graphics</a></li>
+<li class="media"><a href="multimedia.html">Multimedia</a></li>
+</ul>
 </nav>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="script.js"></script>
+
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                var d=300;
+                $('#navigation a').each(function(){
+                    $(this).stop().animate({
+                        'marginTop':'-80px'
+                    },d+=150);
+                });
+
+                $('#navigation > li').hover(
+                function () {
+                    $('a',$(this)).stop().animate({
+                        'marginTop':'-2px'
+                    },200);
+                },
+                function () {
+                    $('a',$(this)).stop().animate({
+                        'marginTop':'-80px'
+                    },200);
+                }
+            );
+            });
+        </script>

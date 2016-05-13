@@ -1,0 +1,143 @@
+/* 
+ Theme Name:   Bare Bones
+ Theme URI:    
+ Description:  Blank Bootstrap Child Theme
+ Author:       lik3afoxx
+ Author URI:   
+ Template:     blank-responsive-bootstrap-wordpress-theme
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+
+/*-- Global --*/
+
+html {
+	
+}
+
+body {
+	
+}
+
+p {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+strong {
+	
+}
+
+header {
+    padding-left: 80px;
+}
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    right: 10px;
+    list-style: none;
+    z-index:999999;
+    width:721px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:75%;
+	font-weight:bold;
+	}
+
+ul#navigation li {
+    width: 103px;
+    display:inline;
+    float:left;
+	}
+
+ul#navigation li a {
+    display: block;
+    float: left;
+    margin-top: -2px;
+    width: 100px;
+    height: 25px;
+    background-color: #E7F2F9;
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    border: 1px solid #BDDCEF;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 80px;
+	}
+
+ul#navigation li a {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 100px;
+    height: 25px;
+    background-color:#E7F2F9;
+    background-repeat:no-repeat;
+    background-position:50% 10px;
+    border:1px solid #BDDCEF;
+    text-decoration:none;
+    text-align:center;
+    padding-top:80px;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+    opacity: 0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+	}
+	
+
+
+ul#navigation .home a{
+    background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/home.png);
+}
+ul#navigation .about a      {
+    background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/user.png);
+}
+ul#navigation .articles a      {
+    background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/laptop.png);
+}
+ul#navigation .designer a      {
+    background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/news.png);
+}
+ul#navigation .media a   {
+    background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/video.png);
+}
+ul#navigation .graphics a     {
+    background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/picture.png);
+}
+
+
+/*-- Responsive --*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}

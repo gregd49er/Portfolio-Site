@@ -1,12 +1,18 @@
 <?php get_header(); ?>
 
-<div class="container">
-	
-	<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
-	
-<div class="col-md-8">
 
-	<main role="main">
+
+<div class="row">
+
+	<div class="col-md-3">
+
+		<img src="http://portfolio.dev/wp-content/uploads/2016/05/articles.png" alt="articles" class="img-responsive">
+
+	</div>
+
+	
+	<div class="homearticle">
+		<main role="main">
 	<!-- section -->
 	<section>
 
@@ -67,15 +73,13 @@
 	</section>
 	<!-- /section -->
 	</main>
-	
-</div>
 
-<div class="col-md-4">
-	
-<?php get_sidebar(); ?>
-	
-</div>
 
-</div>
+	</div>
+	</div>
+	
+
+	
+
 
 <?php get_footer(); ?>
