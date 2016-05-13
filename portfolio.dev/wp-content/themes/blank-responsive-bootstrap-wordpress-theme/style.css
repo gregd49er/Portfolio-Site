@@ -1,0 +1,59 @@
+/*
+	Theme Name: Blank Responsive Bootstrap Wordpress Theme 2.4
+	Theme URI: http://freelance.tstwebdesign.co.uk
+	Description: Blank Responsive Bootstrap Wordpress Theme 2.4
+	Version: 2.4
+	Author: Tommy Leyland
+	Author URI: http://freelance.tstwebdesign.co.uk
+	Tags: Blank, HTML5, CSS3, Bootstrap, Responsive
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*-- Global --*/
+
+html {
+	
+}
+
+body {
+	
+}
+
+p {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+strong {
+	
+}
+
+/*-- Responsive --*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
