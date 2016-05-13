@@ -35,11 +35,18 @@
 			<!-- /post excerpt -->
 
 
+			<div class="col-md-3">
+			<h3><?php the_field('review_title'); ?></h3><br>
+			<h4>Director: <?php the_field('review_director'); ?><br><br>
+				Starring: <?php the_field('review_starring'); ?><br><br>
+				Released on: <?php the_field('review_released'); ?>
+			</h4>
+			</div>
+
+			<div class="col-md-9">
 			<?php the_content(); // Dynamic Content ?>
 
-			<br><br>
-
-			<?php 
+		<?php 
 
 		// get raw date
 		$date = get_field('date_published', false, false);
@@ -52,13 +59,15 @@
 
 			<p>This article was originally published on <?php echo $date->format('M d, Y'); ?> .</p>
 
-			<p>See the orignal post of this article <a href="<?php the_field('link_published'); ?>">here</a>.</p>
+			<p>See the orignal post of this article <a href="<?php the_field('link_published'); ?>">here</a></p>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
 			<?php comments_template(); ?>
+
+			</div>
 
 		</article>
 		<!-- /article -->

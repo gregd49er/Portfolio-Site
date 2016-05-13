@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="panel panel-default">
   <div class="panel-body">
-	Created by Tommy Leyland at <a href="http://freelance.tstwebdesign.co.uk">Freelance Web Designer Manchester</a>, built in Wordpress.
+	Created by Greg Diaz with Blank Responsive Wordpress Theme, built in Wordpress.
 	</div>
 	</div>
 </div>

@@ -30,6 +30,8 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -38,12 +40,11 @@
 
 <nav>
 <ul id="navigation">
-<li class="home"><a href="index2.html"><span>Home</span></a></li>
+<li class="home"><a href="http://portfolio.dev/"><span>Home</span></a></li>
 <li class="about"><a href="aboutme.html">About Me</a></li>
 <li class="articles"><a href="articles.html">Articles</a></li>
 <li class="designer"><a href="design2.html">Page Designs</a></li>
 <li class="graphics"><a href="graphics.html">Graphics</a></li>
-<li class="media"><a href="multimedia.html">Multimedia</a></li>
 </ul>
 </nav>
 

@@ -1,16 +1,15 @@
-/* 
- Theme Name:   Bare Bones
- Theme URI:    
- Description:  Blank Bootstrap Child Theme
- Author:       lik3afoxx
- Author URI:   
- Template:     blank-responsive-bootstrap-wordpress-theme
- Version:      1.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+/*
+    Theme Name: Blank Responsive Bootstrap Wordpress Theme 2.4
+    Theme URI: http://freelance.tstwebdesign.co.uk
+    Description: Blank Responsive Bootstrap Wordpress Theme 2.4
+    Version: 2.4
+    Author: Tommy Leyland
+    Author URI: http://freelance.tstwebdesign.co.uk
+    Tags: Blank, HTML5, CSS3, Bootstrap, Responsive
 
- /* == Add your own styles below this line ==
---------------------------------------------*/
+    License: MIT
+    License URI: http://opensource.org/licenses/mit-license.php
+*/
 
 /*-- Global --*/
 
@@ -130,6 +129,14 @@ ul#navigation .media a   {
 ul#navigation .graphics a     {
     background-image: url(http://portfolio.dev/wp-content/uploads/2016/05/picture.png);
 }
+
+
+
+
+
+/*-- Article Posts --*/
+
+
 
 
 /*-- Responsive --*/
