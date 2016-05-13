@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="homearticle"
+
 	<div class="row">
 
 		<div class="col-md-3">
@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="col-md-9">
-			<div class="articleinside">
+		
 			<main role="main">
 			<!-- section -->
 			<section>
@@ -27,14 +27,18 @@
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+			<div class="col-sm-2">
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
+					<?php the_post_thumbnail('small'); // Fullsize image for the single post ?>
 				</a>
 			<?php endif; ?>
-			<!-- /post thumbnail -->
 
+			<!-- /post thumbnail -->
+			</div>
+
+			<div class="col-sm-10">
 			<!-- post title -->
 			<h2>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
@@ -50,12 +54,14 @@
 			<!-- post details -->
 			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
 			<!-- /post details -->
+			
 
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
 			<?php comments_template(); ?>
 
+			</div>
 			</article>
 			<!-- /article -->
 
@@ -78,8 +84,10 @@
 			</main>
 
 		</div>
+		
 	</div>
-</div>
+
+
 	
 
 	

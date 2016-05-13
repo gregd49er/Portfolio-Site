@@ -243,15 +243,17 @@ function image_downsize( $id, $size = 'medium' ) {
  * @param bool|array $crop   Optional. Whether to crop images to specified width and height or resize.
  *                           An array can specify positioning of the crop area. Default false.
  */
-function add_image_size( $name, $width = 0, $height = 0, $crop = false ) {
+function add_image_size( $customsize, $width = 40, $height = 20, $crop = true ) {
 	global $_wp_additional_image_sizes;
 
-	$_wp_additional_image_sizes[ $name ] = array(
+	$_wp_additional_image_sizes[ $customsize ] = array(
 		'width'  => absint( $width ),
 		'height' => absint( $height ),
 		'crop'   => $crop,
 	);
 }
+
+
 
 /**
  * Check if an image size exists.

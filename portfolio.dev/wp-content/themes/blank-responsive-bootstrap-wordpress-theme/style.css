@@ -37,14 +37,10 @@ header {
     padding-left: 80px;
 }
 
-.homearticle {
+.frontcontainer {
     border-style:outset;
     border-color:#29a329;
-
-}
-
-img.homearticle{
-    max-width: 40px !important;
+    padding:20px;
 
 }
 
@@ -131,7 +127,25 @@ ul#navigation .graphics a     {
 }
 
 
+.articlepage {
+    width: 90%;
+    padding-left:30px;
+}
 
+.moviesidebar {
+    background-color: #29a329;
+    padding:20px;
+}
+
+
+
+.footersection {
+    background-color: 000000;
+    color: ffffff;
+    padding:8px;
+    margin:18px;
+
+}
 
 
 /*-- Article Posts --*/

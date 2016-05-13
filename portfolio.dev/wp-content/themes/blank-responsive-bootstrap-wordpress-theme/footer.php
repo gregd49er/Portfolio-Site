@@ -1,9 +1,7 @@
-<div class="container">
-	<div class="panel panel-default">
-  <div class="panel-body">
+<div class="footersection">
+  
 	Created by Greg Diaz with Blank Responsive Wordpress Theme, built in Wordpress.
-	</div>
-	</div>
+
 </div>
 
 		<?php wp_footer(); ?>

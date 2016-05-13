@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<div class="articlepage">
 	<main role="main">
 	<!-- section -->
 	<section>
@@ -34,13 +33,15 @@
 			</h3>
 			<!-- /post excerpt -->
 
-
+<div class="articlepage">
 			<div class="col-md-3">
+			<div class="moviesidebar">
 			<h3><?php the_field('review_title'); ?></h3><br>
 			<h4>Director: <?php the_field('review_director'); ?><br><br>
 				Starring: <?php the_field('review_starring'); ?><br><br>
 				Released on: <?php the_field('review_released'); ?>
 			</h4>
+			</div>
 			</div>
 
 			<div class="col-md-9">
@@ -69,6 +70,8 @@
 
 			</div>
 
+			</div>
+
 		</article>
 		<!-- /article -->
 
@@ -80,6 +83,7 @@
 		<article>
 
 			<h1><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
+
 
 		</article>
 		<!-- /article -->
@@ -93,5 +97,6 @@
 </div>
 
 
-
+<div class="footersection">
 <?php get_footer(); ?>
+</div>

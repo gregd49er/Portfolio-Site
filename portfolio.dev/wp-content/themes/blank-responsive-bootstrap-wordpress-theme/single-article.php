@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="articlepage">
+
 	<main role="main">
 	<!-- section -->
 	<section>
@@ -34,7 +34,7 @@
 			</h3>
 			<!-- /post excerpt -->
 
-
+<div class="articlepage">
 			<?php the_content(); // Dynamic Content ?>
 
 			<br><br>
