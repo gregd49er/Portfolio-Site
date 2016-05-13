@@ -39,6 +39,17 @@ header {
 }
 
 .homearticle {
+    border-style:outset;
+    border-color:#29a329;
+
+}
+
+img.homearticle{
+    max-width: 40px !important;
+
+}
+
+.articleinside {
     background-color:#29a329;
 }
 
