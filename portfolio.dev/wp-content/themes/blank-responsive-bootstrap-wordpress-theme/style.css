@@ -79,6 +79,23 @@ header {
     background-color:#29a329;
 }
 
+.homegallery {
+    max-height:200px;
+}
+
+.item img {
+    width:60% !important;
+
+}
+
+.item .img-responsive {
+    margin: 0 auto;
+}
+
+.carousel {
+    width: 60% !important;
+}
+
 ul#navigation {
     position: fixed;
     margin: 0px;
